@@ -1,0 +1,8 @@
+<p>main works!</p>
+<ul>
+    <li *ngFor="let hero of heroes">
+        {{hero.id}} {{hero.name}}
+    </li>
+</ul>
+<button (click)="postData()">ADD_NEW_HERO</button>
+<button (click)="getHeroByName()">GET_BOMBASTO</button>
